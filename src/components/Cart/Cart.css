@@ -6,3 +6,8 @@
 .cart h5{
     margin-bottom: 20px;
 }
+.review-order-btn{
+    background-color: #FF9900;
+    color: white;
+    margin-top: 10px;
+}
