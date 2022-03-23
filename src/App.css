@@ -1,38 +1,20 @@
-.App {
+.banner-img{
+  background-image: url('../src/images/images/banner-image-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.banner-text-1{
+  color: #fff6ce;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  border-bottom: 2px solid crimson;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+.banner-text-2{
+  color: #fff6ce;
+    font-size: 60px;
+    font-family: 'Supermercado One', cursive;
 }

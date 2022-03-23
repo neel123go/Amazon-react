@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
+.header{
+    font-family: 'Lato', sans-serif;
+    align-items: center;
+    height: 10vh;
+}
+.header img{
+    width: 50px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+.header .list-item{
+    text-decoration: none;
+    font-size: 17px;
+}
+.header .list-item, .header-title{
+    color: #050b1ae7;
+}
+.header .list-item:hover{
+    color: #3e74fae7;
+}
